@@ -2,11 +2,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     x:Class="MiGuiCs.MainWindow"
     Width="400" Height="150"
-    Title="Ejemplo F# + C# (Avalonia)">
+    Title="Jueguitos">
     <StackPanel Margin="12">
-    <TextBox Name="NameBox" Watermark="Escribe tu nombre..." />
-    <Button Name="GreetBtn" Content="Saludar" Margin="0,8,0,0" />
-    <TextBlock Name="GreetingText" Margin="0,8,0,0" />
+        <TextBlock Text="Sopa de letras y ahorcado" HorizontalAlignment="Center"/>
+        <!--<TextBox Name="NameBox" Watermark="Escribe tu nombre..." />-->
+        <Button Name="ahorcadoBtn" Content="ahorcado" Margin="0,8,0,0" HorizontalAlignment="Center"/>
+        <Button Name="sopaBtn" Content="Sopa de letras" Margin="0,8,0,0" HorizontalAlignment="Center"/>
+        <!--<TextBlock Name="GreetingText" Margin="0,8,0,0" />-->
+        <!--<TextBlock Name="Otro" Margin="0,8,0,0" />-->
     </StackPanel>
 </Window>
 

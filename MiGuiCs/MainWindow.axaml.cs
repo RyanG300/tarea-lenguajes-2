@@ -1,8 +1,7 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
+using Avalonia.Media.TextFormatting;
 using LogicaFs; // <- espacio de nombres de la librería F#
-
-
 namespace MiGuiCs
 {
     public partial class MainWindow : Window
@@ -12,18 +11,25 @@ namespace MiGuiCs
             InitializeComponent();
 
 
-            var greetBtn = this.FindControl<Button>("GreetBtn");
-            var nameBox = this.FindControl<TextBox>("NameBox");
-            var greetingText = this.FindControl<TextBlock>("GreetingText");
+            var ahorcadoBtn = this.FindControl<Button>("ahorcadoBtn");
+            var sopaBtn = this.FindControl<Button>("sopaBtn");
+            //var nameBox = this.FindControl<TextBox>("NameBox");
+            //var greetingText = this.FindControl<TextBlock>("GreetingText");
+            //var otro = this.FindControl<TextBlock>("Otro");
 
 
-            greetBtn.Click += (_, __) =>
+            ahorcadoBtn.Click += (_, __) =>
             {
-                var name = string.IsNullOrWhiteSpace(nameBox.Text) ? "Mundo" : nameBox.Text;
-                // Llamada a la función F#
-                var text = Greeting.GetGreeting(name);
-                greetingText.Text = text;
+                var ventanaAhorcado = new AhorcadoWindow();
+                ventanaAhorcado.Show();
+                //this.Close();
+            };
+            sopaBtn.Click += (_, __) =>
+            {
+                var ventanaSopa = new SopaLetras();
+                ventanaSopa.Show();
+                //this.Close();
             };
         }
-    }   
+    }
 }

@@ -1,0 +1,13 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="MiGuiCs.AhorcadoWindow"
+        Title="Ahorcado"
+        Width="400"
+        Height="300">
+    <Grid>
+        <TextBlock Text="Ventana de Ahorcado"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   FontSize="24"/>
+    </Grid>
+</Window>

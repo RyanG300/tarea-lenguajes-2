@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programaci\u00F3n\\Tareas\\2\\tarea-lenguajes-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D112986-B4CD-4BBF-AD86-6DFA6875A07A}|MiGuiCs\\MiGuiCs.csproj|d:\\tec\\materias\\2025\\cuarto_semestre\\lenguajes de programaci\u00F3n\\tareas\\2\\tarea-lenguajes-2\\miguics\\miguics.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{2D112986-B4CD-4BBF-AD86-6DFA6875A07A}|MiGuiCs\\MiGuiCs.csproj|solutionrelative:miguics\\miguics.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D112986-B4CD-4BBF-AD86-6DFA6875A07A}|MiGuiCs\\MiGuiCs.csproj|d:\\tec\\materias\\2025\\cuarto_semestre\\lenguajes de programaci\u00F3n\\tareas\\2\\tarea-lenguajes-2\\miguics\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D112986-B4CD-4BBF-AD86-6DFA6875A07A}|MiGuiCs\\MiGuiCs.csproj|solutionrelative:miguics\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,31 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MiGuiCs",
-              "DocumentMoniker": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programaci\u00F3n\\Tareas\\2\\tarea-lenguajes-2\\MiGuiCs\\MiGuiCs.csproj",
-              "RelativeDocumentMoniker": "MiGuiCs\\MiGuiCs.csproj",
-              "ToolTip": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programaci\u00F3n\\Tareas\\2\\tarea-lenguajes-2\\MiGuiCs\\MiGuiCs.csproj",
-              "RelativeToolTip": "MiGuiCs\\MiGuiCs.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-27T01:31:54.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "App.axaml.cs",
               "DocumentMoniker": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programaci\u00F3n\\Tareas\\2\\tarea-lenguajes-2\\MiGuiCs\\App.axaml.cs",
               "RelativeDocumentMoniker": "MiGuiCs\\App.axaml.cs",
               "ToolTip": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programaci\u00F3n\\Tareas\\2\\tarea-lenguajes-2\\MiGuiCs\\App.axaml.cs",
               "RelativeToolTip": "MiGuiCs\\App.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T01:30:06.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programaci\u00F3n\\Tareas\\2\\tarea-lenguajes-2\\MiGuiCs\\Program.cs",
               "RelativeDocumentMoniker": "MiGuiCs\\Program.cs",
@@ -59,8 +43,7 @@
               "RelativeToolTip": "MiGuiCs\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T01:29:40.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T01:29:40.977Z"
             }
           ]
         },

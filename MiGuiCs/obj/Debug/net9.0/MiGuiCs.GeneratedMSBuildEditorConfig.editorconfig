@@ -24,5 +24,11 @@ build_property.EnableCodeStyleSeverity =
 [D:/Tec/Materias/2025/Cuarto_semestre/Lenguajes de programación/Tareas/2/tarea-lenguajes-2/MiGuiCs/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[D:/Tec/Materias/2025/Cuarto_semestre/Lenguajes de programación/Tareas/2/tarea-lenguajes-2/MiGuiCs/Games/AhorcadoWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/Tec/Materias/2025/Cuarto_semestre/Lenguajes de programación/Tareas/2/tarea-lenguajes-2/MiGuiCs/Games/SopaLetras.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [D:/Tec/Materias/2025/Cuarto_semestre/Lenguajes de programación/Tareas/2/tarea-lenguajes-2/MiGuiCs/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
