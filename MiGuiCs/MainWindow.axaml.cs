@@ -2,10 +2,12 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Media.TextFormatting;
 using LogicaFs; // <- espacio de nombres de la librería F#
+
 namespace MiGuiCs
 {
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
@@ -16,6 +18,7 @@ namespace MiGuiCs
             //var nameBox = this.FindControl<TextBox>("NameBox");
             //var greetingText = this.FindControl<TextBlock>("GreetingText");
             //var otro = this.FindControl<TextBlock>("Otro");
+             // Ejemplo de uso de la librería F#
 
 
             ahorcadoBtn.Click += (_, __) =>

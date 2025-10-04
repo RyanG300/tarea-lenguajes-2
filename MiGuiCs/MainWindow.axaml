@@ -8,6 +8,7 @@
         <!--<TextBox Name="NameBox" Watermark="Escribe tu nombre..." />-->
         <Button Name="ahorcadoBtn" Content="ahorcado" Margin="0,8,0,0" HorizontalAlignment="Center"/>
         <Button Name="sopaBtn" Content="Sopa de letras" Margin="0,8,0,0" HorizontalAlignment="Center"/>
+        <!--<TextBlock Name="Resultado" Margin="0,8,0,0" HorizontalAlignment="Center"/>-->
         <!--<TextBlock Name="GreetingText" Margin="0,8,0,0" />-->
         <!--<TextBlock Name="Otro" Margin="0,8,0,0" />-->
     </StackPanel>

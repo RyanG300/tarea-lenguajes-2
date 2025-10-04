@@ -89,3 +89,4 @@ D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-l
 D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\MiGuiCs\obj\Debug\net9.0\MiGuiCs.pdb
 D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\MiGuiCs\obj\Debug\net9.0\MiGuiCs.genruntimeconfig.cache
 D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\MiGuiCs\obj\Debug\net9.0\ref\MiGuiCs.dll
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\MiGuiCs\bin\Debug\net9.0\Games\Lectura_games\palabrasAhorcado.txt
