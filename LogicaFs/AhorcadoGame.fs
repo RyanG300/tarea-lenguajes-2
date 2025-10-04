@@ -22,10 +22,15 @@ module AhorcadoGame =
         let estadoArray = estadoActual.ToCharArray()
         let nuevoEstado = actualizarEstado palabra estadoArray letra
         colocarEspacios nuevoEstado
-      
+
+    let stringToCharArray (s: string) : char[] =
+        s.Replace(" ", "").ToCharArray()
+
     let esGanador (estadoActual: char[]) : bool =
         not (Array.exists (fun c -> c = '_') estadoActual)
 
+    let tiempo (segundos: int) : string =
+        let minutos = segundos / 60
+        let segundosRestantes = segundos % 60
+        sprintf "%d:%02d" minutos segundosRestantes
 
-    
-    

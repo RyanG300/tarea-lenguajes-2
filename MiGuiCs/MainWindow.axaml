@@ -1,17 +1,78 @@
 <Window xmlns="https://github.com/avaloniaui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    x:Class="MiGuiCs.MainWindow"
-    Width="400" Height="150"
-    Title="Jueguitos">
-    <StackPanel Margin="12">
-        <TextBlock Text="Sopa de letras y ahorcado" HorizontalAlignment="Center"/>
-        <!--<TextBox Name="NameBox" Watermark="Escribe tu nombre..." />-->
-        <Button Name="ahorcadoBtn" Content="ahorcado" Margin="0,8,0,0" HorizontalAlignment="Center"/>
-        <Button Name="sopaBtn" Content="Sopa de letras" Margin="0,8,0,0" HorizontalAlignment="Center"/>
-        <!--<TextBlock Name="Resultado" Margin="0,8,0,0" HorizontalAlignment="Center"/>-->
-        <!--<TextBlock Name="GreetingText" Margin="0,8,0,0" />-->
-        <!--<TextBlock Name="Otro" Margin="0,8,0,0" />-->
-    </StackPanel>
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+x:Class="MiGuiCs.MainWindow"
+Width="420" Height="220"
+Title="Jueguitos">
+
+
+<!-- Fondo degradado suave -->
+<Window.Background>
+<LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+<GradientStop Color="#FF5B86E5" Offset="0"/>
+<GradientStop Color="#FF6DD5FA" Offset="1"/>
+</LinearGradientBrush>
+</Window.Background>
+
+
+<Grid Margin="14">
+<Grid.RowDefinitions>
+<RowDefinition Height="Auto"/>
+<RowDefinition Height="*"/>
+<RowDefinition Height="Auto"/>
+</Grid.RowDefinitions>
+
+
+<!-- Título grande y centrado -->
+<TextBlock Grid.Row="0"
+Text="Sopa de letras y ahorcado"
+HorizontalAlignment="Center"
+FontSize="20"
+FontWeight="Bold"
+Foreground="White"
+Margin="0,4,0,8" />
+
+
+<!-- Panel con botones centrados -->
+<StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
+
+
+<!-- Botón 1: dentro de un borde para lograr esquinas redondeadas y fondo blanco translúcido -->
+<Border CornerRadius="10" Background="#F2FFFFFF" Padding="2" Margin="0,6" MinWidth="220">
+<Button Name="ahorcadoBtn"
+Content="ahorcado"
+Background="Transparent"
+Foreground="#222"
+FontSize="15"
+Padding="12,8"
+HorizontalAlignment="Stretch" />
+</Border>
+
+
+<!-- Botón 2 -->
+<Border CornerRadius="10" Background="#F2FFFFFF" Padding="2" Margin="0,6" MinWidth="220">
+<Button Name="sopaBtn"
+Content="Sopa de letras"
+Background="Transparent"
+Foreground="#222"
+FontSize="15"
+Padding="12,8"
+HorizontalAlignment="Stretch" />
+</Border>
+
+
+</StackPanel>
+
+
+<!-- Pie con texto pequeño -->
+<TextBlock Grid.Row="2"
+Text="Selecciona un juego para comenzar"
+HorizontalAlignment="Center"
+Foreground="#F8FFFFFF"
+Opacity="0.9"
+Margin="0,8,0,0" />
+
+
+</Grid>
 </Window>
 
 
