@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiGuiCs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+323c0378c507b4c85da3b05b490cec0c154ae300")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4eef073eeed66f008fb46bb2aca9f07a5a587b84")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiGuiCs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiGuiCs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -48,9 +48,7 @@ namespace MiGuiCs
         {
             InitializeComponent();
 
-            // Generar primera vez (matriz fija 11x11)
             GenerarSopa(11);
-            // Suscribir botón Rendirse (auto-solve)
             try
             {
                 var btn = this.Find<Button>("RendirseButton");
@@ -76,15 +74,13 @@ namespace MiGuiCs
                 Console.WriteLine($"[SopaLetras] Error comprobando/leyendo '{path}': {ex.Message}");
                 lineas = new string[0];
             }
-            // Generar con seed explícito (puro en la librería)
+        
             long seed = System.DateTime.UtcNow.Ticks;
-            // La librería espera un System.Random; crear uno a partir del seed
             var rnd = new System.Random((int)(seed & 0xFFFFFFFF));
             var tuple = LogicaFs.SopaLetras.generarSopa(lineas, size, size, rnd);
             var matriz = tuple.Item1;
             currentMatrix = matriz;
             var palabrasColocadas = tuple.Item2;
-            // Guardar localmente las palabras colocadas en mayúsculas
             placedWordsState = palabrasColocadas.Select(p => (p ?? string.Empty).ToUpper()).ToArray();
             wordBrushes.Clear();
             for (int i = 0; i < palabrasColocadas.Length; i++)
