@@ -1,27 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/MiGuiCs/MiGuiCs.csproj": {}
+    "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programación\\Tareas\\2\\tarea-lenguajes-2\\MiGuiCs\\MiGuiCs.csproj": {}
   },
   "projects": {
-    "/Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/LogicaFs/LogicaFs.fsproj": {
+    "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programación\\Tareas\\2\\tarea-lenguajes-2\\LogicaFs\\LogicaFs.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/LogicaFs/LogicaFs.fsproj",
+        "projectUniqueName": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programación\\Tareas\\2\\tarea-lenguajes-2\\LogicaFs\\LogicaFs.fsproj",
         "projectName": "LogicaFs",
-        "projectPath": "/Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/LogicaFs/LogicaFs.fsproj",
-        "packagesPath": "/Users/danielbarrantes/.nuget/packages/",
-        "outputPath": "/Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/LogicaFs/obj/",
+        "projectPath": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programación\\Tareas\\2\\tarea-lenguajes-2\\LogicaFs\\LogicaFs.fsproj",
+        "packagesPath": "C:\\Users\\Extremetech SC\\.nuget\\packages\\",
+        "outputPath": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programación\\Tareas\\2\\tarea-lenguajes-2\\LogicaFs\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/danielbarrantes/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Extremetech SC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/library-packs": {},
-          "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/sdk/9.0.109/FSharp/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\9.0.200\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,7 +40,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -44,7 +49,7 @@
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[9.0.101, )",
+              "version": "[9.0.201, )",
               "generatePathProperty": true
             }
           },
@@ -64,35 +69,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/MiGuiCs/MiGuiCs.csproj": {
+    "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programación\\Tareas\\2\\tarea-lenguajes-2\\MiGuiCs\\MiGuiCs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/MiGuiCs/MiGuiCs.csproj",
+        "projectUniqueName": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programación\\Tareas\\2\\tarea-lenguajes-2\\MiGuiCs\\MiGuiCs.csproj",
         "projectName": "MiGuiCs",
-        "projectPath": "/Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/MiGuiCs/MiGuiCs.csproj",
-        "packagesPath": "/Users/danielbarrantes/.nuget/packages/",
-        "outputPath": "/Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/MiGuiCs/obj/",
+        "projectPath": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programación\\Tareas\\2\\tarea-lenguajes-2\\MiGuiCs\\MiGuiCs.csproj",
+        "packagesPath": "C:\\Users\\Extremetech SC\\.nuget\\packages\\",
+        "outputPath": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programación\\Tareas\\2\\tarea-lenguajes-2\\MiGuiCs\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/danielbarrantes/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Extremetech SC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/LogicaFs/LogicaFs.fsproj": {
-                "projectPath": "/Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/LogicaFs/LogicaFs.fsproj"
+              "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programación\\Tareas\\2\\tarea-lenguajes-2\\LogicaFs\\LogicaFs.fsproj": {
+                "projectPath": "D:\\Tec\\Materias\\2025\\Cuarto_semestre\\Lenguajes de programación\\Tareas\\2\\tarea-lenguajes-2\\LogicaFs\\LogicaFs.fsproj"
               }
             }
           }
@@ -107,7 +117,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -150,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

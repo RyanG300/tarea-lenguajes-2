@@ -13,7 +13,8 @@ module AhorcadoGame =
         palabra.Contains(letra)
 
     let actualizarEstado (palabra: string) (estadoActual: char[]) (letra: char) : char[] =
-        estadoActual |> Array.mapi (fun i c -> if palabra.[i] = letra then letra else c)
+        estadoActual 
+            |> Array.mapi (fun i c -> if palabra.[i] = letra then letra else c)
     
     let colocarEspacios (estado: char[]) : string =
         estado |> Array.map (fun c -> string c) |> String.concat " "

@@ -26,3 +26,17 @@ D:/Tec/Materias/2025/Cuarto_semestre/Lenguajes de programación/Tareas/2/tarea-l
 /Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/LogicaFs/bin/Debug/net9.0/LogicaFs.pdb
 /Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/LogicaFs/bin/Debug/net9.0/LogicaFs.xml
 /Users/danielbarrantes/Desktop/Lenguajes de Programación/tarea-lenguajes-2/LogicaFs/obj/Debug/net9.0/ref/LogicaFs.dll
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\bin\Debug\net9.0\LogicaFs.deps.json
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\bin\Debug\net9.0\LogicaFs.dll
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\bin\Debug\net9.0\LogicaFs.pdb
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\bin\Debug\net9.0\LogicaFs.xml
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\obj\Debug\net9.0\LogicaFs.fsproj.AssemblyReference.cache
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\obj\Debug\net9.0\LogicaFs.AssemblyInfoInputs.cache
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\obj\Debug\net9.0\LogicaFs.AssemblyInfo.fs
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\obj\Debug\net9.0\LogicaFs.fsproj.CoreCompileInputs.cache
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\obj\Debug\net9.0\LogicaFs.sourcelink.json
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\obj\Debug\net9.0\LogicaFs.dll
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\obj\Debug\net9.0\refint\LogicaFs.dll
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\obj\Debug\net9.0\LogicaFs.xml
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\obj\Debug\net9.0\LogicaFs.pdb
+D:\Tec\Materias\2025\Cuarto_semestre\Lenguajes de programación\Tareas\2\tarea-lenguajes-2\LogicaFs\obj\Debug\net9.0\ref\LogicaFs.dll

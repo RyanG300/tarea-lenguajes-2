@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("LogicaFs")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4eef073eeed66f008fb46bb2aca9f07a5a587b84")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d65c80b7f7245f61bc1edd883fa0996212c1dd7c")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("LogicaFs")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("LogicaFs")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
