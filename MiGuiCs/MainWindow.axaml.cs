@@ -29,7 +29,7 @@ namespace MiGuiCs
             };
             sopaBtn.Click += (_, __) =>
             {
-                var ventanaSopa = new SopaLetras();
+                var ventanaSopa = new SopaLetrasWindow();
                 ventanaSopa.Show();
                 //this.Close();
             };

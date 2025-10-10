@@ -2,5 +2,75 @@
 <doc>
 <assembly><name>LogicaFs</name></assembly>
 <members>
+<member name="P:LogicaFs.Library.__library_present__">
+<summary>
+ Valor dummy para que el archivo no esté vacío y el compilador F# lo acepte.
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.buscarRutasPorLongitud(System.Int32,System.Int32,System.Int32,System.Char[0:])">
+<summary>
+ Buscar rutas de longitud exacta
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.posicionesIniciales(System.Char[0:],System.String)">
+<summary>
+ Devuelve las posiciones iniciales donde comienza la palabra
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.GetFoundWords(Microsoft.FSharp.Collections.FSharpSet{System.String})">
+<summary>
+ Obtener palabras ya encontradas
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.TryFindByCoords(System.Char[0:],System.Tuple{System.Int32,System.Int32}[],System.String[],Microsoft.FSharp.Collections.FSharpSet{System.String})">
+<summary>
+ Intenta encontrar palabra por coordenadas
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.ComprobarPorCoordenadasValueTuples(System.Char[0:],System.Tuple{System.Int32,System.Int32}[],System.String[])">
+<summary>
+ Comprueba una secuencia de coordenadas
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.comprobarPalabra(System.String,System.String[])">
+<summary>
+ Comprueba si una palabra está en el arreglo de palabras.
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.generarSopa(System.String[],System.Int32,System.Int32,System.Random)">
+<summary>
+ Generar sopa de letras
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.intentarColocar(System.String,System.Char[0:],System.Tuple{System.Int32,System.Int32}[],System.Random,System.Int32,System.Int32)">
+<summary>
+ Intentar colocar palabras en la matriz
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.seleccionarPalabras(System.String[],System.Int32,System.Int32,System.Int32,System.Random)">
+<summary>
+ Seleccionar palabras que quepan en el tablero
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.obtenerLineaAlineada(System.Int32,System.Int32,System.Int32,System.Int32)">
+<summary>
+ Obtener línea de coordenadas alineadas
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.rellenarAleatorio(System.Char[0:],System.Random)">
+<summary>
+ Rellenar matriz con letras aleatorias
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.ponerPalabraDir(System.Char[0:],System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+<summary>
+ Coloca palabra en matriz de forma
+</summary>
+</member>
+<member name="M:LogicaFs.SopaLetras.crearMatriz(System.Int32,System.Int32)">
+<summary>
+ Crear matriz vacía
+</summary>
+</member>
 </members>
 </doc>

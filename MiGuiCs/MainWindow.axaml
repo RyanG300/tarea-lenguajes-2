@@ -39,7 +39,7 @@ Margin="0,4,0,8" />
 <!-- Botón 1: dentro de un borde para lograr esquinas redondeadas y fondo blanco translúcido -->
 <Border CornerRadius="10" Background="#F2FFFFFF" Padding="2" Margin="0,6" MinWidth="220">
 <Button Name="ahorcadoBtn"
-Content="ahorcado"
+Content="Ahorcado"
 Background="Transparent"
 Foreground="#222"
 FontSize="15"
@@ -74,8 +74,3 @@ Margin="0,8,0,0" />
 
 </Grid>
 </Window>
-
-
-
-
-

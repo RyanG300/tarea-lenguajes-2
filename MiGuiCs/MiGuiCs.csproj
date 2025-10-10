@@ -14,6 +14,9 @@
     <Content Include="Games\Lectura_games\palabrasAhorcado.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Games\Lectura_games\palabrasSopaLetras.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>

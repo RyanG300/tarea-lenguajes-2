@@ -1,13 +1,49 @@
 <Window xmlns="https://github.com/avaloniaui"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        x:Class="MiGuiCs.SopaLetras"
-        Title="SopaLetras"
-        Width="400"
-        Height="300">
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  x:Class="MiGuiCs.SopaLetrasWindow"
+  Width="600" Height="600"
+  Title="Sopa de Letras"
+  Background="#1F354F">
+
+  <DockPanel LastChildFill="True">
+    <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="6">
+      <!-- Barra superior (sin botones) -->
+    </StackPanel>
+    <!-- Título centrado encima de la sopa de letras -->
+    <TextBlock DockPanel.Dock="Top" Text="SOPA DE LETRAS" HorizontalAlignment="Center" Margin="0,6,0,14"
+           FontSize="24" FontWeight="Bold" TextAlignment="Center" Foreground="#C6FF6B"/>
+
+    <!-- Contenedor central: sopa arriba y palabras inmediatamente abajo -->
     <Grid>
-        <TextBlock Text="SopaLetras"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"
-                   FontSize="24"/>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+
+      <ScrollViewer Grid.Row="0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Background="Transparent">
+        <Border x:Name="SopaBorder" CornerRadius="12" Background="White" Padding="6" HorizontalAlignment="Center" VerticalAlignment="Top">
+          <Grid Name="SopaGrid" Background="#000000" HorizontalAlignment="Center" 
+          VerticalAlignment="Center"/>
+        </Border>
+      </ScrollViewer>
+
+
+      <WrapPanel Grid.Row="1" Name="PalabrasWrap" Orientation="Horizontal" HorizontalAlignment="Center" Margin="8,6,8,0"
+          MaxWidth="{Binding Path=Bounds.Width, ElementName=SopaBorder}">
+        <WrapPanel.Styles>
+          <Style Selector="TextBlock">
+            <Setter Property="Foreground" Value="#C6FF6B"/>
+            <Setter Property="Background" Value="Transparent"/>
+          </Style>
+        </WrapPanel.Styles>
+      </WrapPanel>
+
+      <!-- Botón de rendirse colocado debajo de las palabras a encontrar -->
+      <Button Grid.Row="2" Name="RendirseButton" Background="#C6FF6B" Foreground="#1F354F"
+        HorizontalAlignment="Center" Margin="0,10,0,6" Padding="12,6">
+        <TextBlock Text="Rendirse" FontWeight="Bold"/>
+      </Button>
     </Grid>
+  </DockPanel>
 </Window>
